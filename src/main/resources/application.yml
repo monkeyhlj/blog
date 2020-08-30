@@ -1,0 +1,9 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: dev
+  messages:
+    basename: i18n/message
+
+comment.avatar: /images/ewm.png

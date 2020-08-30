@@ -1,0 +1,154 @@
+2020-08-30 10:35:02.640  INFO 4320 --- [restartedMain] com.monkey.BlogApplication               : Starting BlogApplication on WIN7-20120726XK with PID 4320 (F:\IdeaProjects\blog\target\classes started by Administrator in F:\IdeaProjects\blog)
+2020-08-30 10:35:02.656  INFO 4320 --- [restartedMain] com.monkey.BlogApplication               : The following profiles are active: dev
+2020-08-30 10:35:02.890  INFO 4320 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-30 10:35:02.890  INFO 4320 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-30 10:35:05.793  INFO 4320 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-30 10:35:06.316  INFO 4320 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 484ms. Found 5 JPA repository interfaces.
+2020-08-30 10:35:10.180  INFO 4320 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2020-08-30 10:35:10.240  INFO 4320 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-30 10:35:10.240  INFO 4320 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-08-30 10:35:10.501  INFO 4320 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-30 10:35:10.501  INFO 4320 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 7611 ms
+2020-08-30 10:35:10.969  INFO 4320 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-30 10:35:11.343  INFO 4320 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-30 10:35:11.873  WARN 4320 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-30 10:35:11.889  INFO 4320 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-08-30 10:35:13.547  INFO 4320 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-30 10:35:13.984  INFO 4320 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-30 10:35:15.542  INFO 4320 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-30 10:35:15.885  INFO 4320 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-08-30 10:35:19.841  INFO 4320 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-30 10:35:19.904  INFO 4320 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-30 10:35:20.993  INFO 4320 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-30 10:35:21.165  INFO 4320 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-30 10:35:24.118  INFO 4320 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2020-08-30 10:35:24.118  INFO 4320 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-30 10:35:25.601  INFO 4320 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-30 10:35:25.632  INFO 4320 --- [restartedMain] com.monkey.BlogApplication               : Started BlogApplication in 25.758 seconds (JVM running for 30.176)
+2020-08-30 10:35:47.242  INFO 4320 --- [http-nio-9999-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1596724414,1597402383,1597417024] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-08-30 10:35:47.267  INFO 4320 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-30 10:35:47.267  INFO 4320 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-30 10:35:47.312  INFO 4320 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 45 ms
+2020-08-30 10:35:47.437  INFO 4320 --- [http-nio-9999-exec-1] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:35:47.442  INFO 4320 --- [http-nio-9999-exec-1] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.index', args=[Page request [number: 0, size 3, sort: updateTime: DESC], {}]}
+2020-08-30 10:35:48.092  WARN 4320 --- [http-nio-9999-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-30 10:35:48.142  WARN 4320 --- [http-nio-9999-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-30 10:35:48.177  INFO 4320 --- [http-nio-9999-exec-1] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:35:48.182  INFO 4320 --- [http-nio-9999-exec-1] com.monkey.aspect.LogAspect              : Result:index
+2020-08-30 10:35:51.363  INFO 4320 --- [http-nio-9999-exec-3] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:35:51.363  INFO 4320 --- [http-nio-9999-exec-3] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:35:51.388  INFO 4320 --- [http-nio-9999-exec-3] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:35:51.388  INFO 4320 --- [http-nio-9999-exec-3] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:37:27.321  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:37:27.321  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.TypeShowContrller.types', args=[Page request [number: 0, size 3, sort: updateTime: DESC], -1, {}]}
+2020-08-30 10:37:29.166  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:37:29.166  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : Result:types
+2020-08-30 10:37:29.996  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:37:30.001  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:37:30.041  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:37:30.041  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:37:38.235  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:37:38.240  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.TagShowController.tags', args=[Page request [number: 0, size 3, sort: updateTime: DESC], -1, {}]}
+2020-08-30 10:37:38.335  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:37:38.335  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : Result:tags
+2020-08-30 10:37:39.890  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:37:39.890  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:37:39.905  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:37:39.910  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:37:41.263  INFO 4320 --- [http-nio-9999-exec-10] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:37:41.263  INFO 4320 --- [http-nio-9999-exec-10] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.TypeShowContrller.types', args=[Page request [number: 0, size 3, sort: updateTime: DESC], -1, {}]}
+2020-08-30 10:37:41.289  INFO 4320 --- [http-nio-9999-exec-10] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:37:41.289  INFO 4320 --- [http-nio-9999-exec-10] com.monkey.aspect.LogAspect              : Result:types
+2020-08-30 10:37:42.054  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:37:42.054  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:37:42.079  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:37:42.079  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:38:03.005  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:38:03.005  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.AchieveShowController.archives', args=[{}]}
+2020-08-30 10:38:03.135  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:38:03.135  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : Result:archives
+2020-08-30 10:38:03.945  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:38:03.945  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:38:03.970  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:38:03.970  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:38:21.939  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:38:21.939  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/about', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.AboutShowController.about', args=[]}
+2020-08-30 10:38:21.944  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:38:21.944  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : Result:about
+2020-08-30 10:38:23.239  INFO 4320 --- [http-nio-9999-exec-10] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:38:23.239  INFO 4320 --- [http-nio-9999-exec-10] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:38:23.249  INFO 4320 --- [http-nio-9999-exec-10] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:38:23.249  INFO 4320 --- [http-nio-9999-exec-10] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:41:01.890  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:41:01.895  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/;jsessionid=677F2B87D91A7796B7568270D11F977D', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.index', args=[Page request [number: 0, size 3, sort: updateTime: DESC], {}]}
+2020-08-30 10:41:01.920  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:41:01.920  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : Result:index
+2020-08-30 10:41:03.090  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:41:03.090  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:41:03.110  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:41:03.110  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:41:10.014  INFO 4320 --- [http-nio-9999-exec-3] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:41:10.014  INFO 4320 --- [http-nio-9999-exec-3] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:41:10.024  INFO 4320 --- [http-nio-9999-exec-3] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:41:10.024  INFO 4320 --- [http-nio-9999-exec-3] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:41:17.667  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:41:17.667  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:41:17.687  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:41:17.687  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:41:19.091  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:41:19.096  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:41:19.111  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:41:19.111  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:41:21.085  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:41:21.085  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:41:21.100  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:41:21.100  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:41:22.705  INFO 4320 --- [http-nio-9999-exec-7] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:41:22.705  INFO 4320 --- [http-nio-9999-exec-7] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:41:22.720  INFO 4320 --- [http-nio-9999-exec-7] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:41:22.720  INFO 4320 --- [http-nio-9999-exec-7] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:42:38.066  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:42:38.066  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:42:38.076  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:42:38.076  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:42:53.794  INFO 4320 --- [http-nio-9999-exec-1] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:42:53.794  INFO 4320 --- [http-nio-9999-exec-1] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.index', args=[Page request [number: 0, size 3, sort: updateTime: DESC], {}]}
+2020-08-30 10:42:53.869  INFO 4320 --- [http-nio-9999-exec-1] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:42:53.869  INFO 4320 --- [http-nio-9999-exec-1] com.monkey.aspect.LogAspect              : Result:index
+2020-08-30 10:42:54.869  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:42:54.869  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:42:54.889  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:42:54.889  INFO 4320 --- [http-nio-9999-exec-9] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:42:56.924  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:42:56.924  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/blog/20', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.blog', args=[20, {}]}
+2020-08-30 10:42:57.174  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:42:57.174  INFO 4320 --- [http-nio-9999-exec-2] com.monkey.aspect.LogAspect              : Result:blog
+2020-08-30 10:42:58.119  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:42:58.119  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:42:58.139  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:42:58.139  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:42:58.434  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:42:58.434  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/comments/20', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.CommentController.comments', args=[20, {}]}
+2020-08-30 10:42:58.574  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:42:58.574  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : Result:blog :: commentList
+2020-08-30 10:43:00.865  INFO 4320 --- [http-nio-9999-exec-7] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:43:00.865  INFO 4320 --- [http-nio-9999-exec-7] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.index', args=[Page request [number: 0, size 3, sort: updateTime: DESC], {}]}
+2020-08-30 10:43:00.900  INFO 4320 --- [http-nio-9999-exec-7] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:43:00.900  INFO 4320 --- [http-nio-9999-exec-7] com.monkey.aspect.LogAspect              : Result:index
+2020-08-30 10:43:02.130  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:43:02.130  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:43:02.145  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:43:02.145  INFO 4320 --- [http-nio-9999-exec-6] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:43:03.712  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:43:03.712  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.blog', args=[19, {}]}
+2020-08-30 10:43:03.802  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:43:03.802  INFO 4320 --- [http-nio-9999-exec-8] com.monkey.aspect.LogAspect              : Result:blog
+2020-08-30 10:43:04.542  INFO 4320 --- [http-nio-9999-exec-5] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:43:04.542  INFO 4320 --- [http-nio-9999-exec-5] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.IndexController.newblogs', args=[{}]}
+2020-08-30 10:43:04.557  INFO 4320 --- [http-nio-9999-exec-5] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:43:04.557  INFO 4320 --- [http-nio-9999-exec-5] com.monkey.aspect.LogAspect              : Result:_fragments :: newblogList
+2020-08-30 10:43:04.722  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : --------------doBefore----------------
+2020-08-30 10:43:04.722  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : Request:RequestLog{url='http://localhost:9999/comments/19', ip='0:0:0:0:0:0:0:1', classMethod='com.monkey.web.CommentController.comments', args=[19, {}]}
+2020-08-30 10:43:04.747  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : --------------doAfter----------------
+2020-08-30 10:43:04.747  INFO 4320 --- [http-nio-9999-exec-4] com.monkey.aspect.LogAspect              : Result:blog :: commentList
